@@ -47,4 +47,3 @@ options = trainingOptions("adam", ...
     Verbose=1);
 TrainData = TrainData';
 net = trainNetwork(XTrain,FoldTrainLabels,layers,options);
-x = 0;
