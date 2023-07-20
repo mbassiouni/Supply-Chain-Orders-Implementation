@@ -1,4 +1,4 @@
-function [XTrain,FoldTrainLabels,lgraph,options] =TCN1DSPCNNModel(params)
+function [XTrain,FoldTrainLabels,lgraph,options] =ProposedTCN1DSPCNNModel(params)
 load 'DataOrders.mat';
 TrainData = normalize(ExcelSmallDataSmaller(1:108312,1:13));
 ValidationData = normalize(ExcelSmallDataSmallerTest(1:36103,1:13));
